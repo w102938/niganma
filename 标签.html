@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签选择</title>
+</head>
+<style>
+     a{
+        position:fixed;
+        line-height: 60px;
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+        font-family: border-box;
+        background: 
+        linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        border-radius: 30px;
+        background-size: 400%;  
+    }
+    a:hover{
+        animation: animate 8s linear infinite;
+    }
+
+    @keyframes animate{
+        form{
+            background-position: 0%;
+        }
+        to{
+            background-position: 400%;
+        }
+    }
+    .flex {
+        display: flex;
+    }
+    .column {
+        flex-direction: column;
+    }
+</style>
+
+<body class="flex">
+    <!--头部区-->
+    <div class="column">
+    <div style="height: 100px;width: 1800px; z-index: 1; background-color: darkgray;">
+        <div style=" justify-content: center;">
+            <p style="font-size: 30px; color: pink;">选择标签:</p>
+        </div>
+    </div>
+    <!--内容区-->
+    <div><a href="index.html"><p style="font-size: 30px;">返回主页</p></a></div>
+        <div class="flex">
+            <div>
+            <img style="height: 300px; width: 300px;" src="王者/孙尚香1 (1).jpg">
+            <a style="justify-content: center;" href="孙尚香.html"><li>孙尚香时之恋人</li></a>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

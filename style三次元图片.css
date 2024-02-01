@@ -1,0 +1,50 @@
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+
+.bai {
+    background-color: aliceblue;
+}
+
+.fen {
+    background-color: pink;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-container img {
+    width: 360px;
+    height: 360px;
+    justify-content: cover;
+}
+
+.bj {
+    margin: 10px;
+}
+.container  {
+         display:  grid;
+         grid-template-columns:  repeat(4,  1fr);
+     }
+     img  {
+         width:  360px;
+         height:  360px;
+         margin: 10px;
+         transition: transform 0.3s ease;
+     }
+     img:hover {
+transform: scale(1.1);
+}
+.xz {
+   width: 190px;
+   height: 190px;
+}
